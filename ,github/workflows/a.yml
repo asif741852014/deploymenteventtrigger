@@ -1,0 +1,9 @@
+name: a
+on: 
+  deployment
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "deployment event triggered"
