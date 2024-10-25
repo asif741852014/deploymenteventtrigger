@@ -9,6 +9,4 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: echo "Deployment status updated for: ${{ github.event.deployment.ref }}"
-      - run: echo "Deployment environment: ${{ github.event.deployment.environment }}"
-      - run: echo "New status: ${{ github.event.deployment_status.state }}"
+      - run: echo "from deployment_status event trigger"
